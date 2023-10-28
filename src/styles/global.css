@@ -1,0 +1,93 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Interactive Elements Styles */
+
+.quiz {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #007bff;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.signup-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.chat-simulation {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 3D Graphics Styles */
+
+.three-js-container {
+    width: 100%;
+    height: 500px;
+}
+
+/* Skip Feature Styles */
+
+.skip-feature {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

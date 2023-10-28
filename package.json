@@ -1,0 +1,33 @@
+{
+  "name": "elysium-envisioned",
+  "version": "1.0.0",
+  "description": "An Interactive Gamified Investor Deck",
+  "main": "server.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "test": "jest",
+    "test:e2e": "cypress run"
+  },
+  "keywords": ["react", "nextjs", "redux", "threejs", "interactive", "investor deck"],
+  "author": "Dr. A. I. Virtuoso",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "redux": "^4.0.5",
+    "react-redux": "^7.2.3",
+    "three": "^0.125.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "cypress": "^7.2.0",
+    "jsdoc": "^3.6.7"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>/tests/setupTests.js"],
+    "testPathIgnorePatterns": ["<rootDir>/.next/", "<rootDir>/node_modules/"]
+  }
+}
